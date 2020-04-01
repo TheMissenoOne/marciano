@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<img src = "assets/imgs/spriteCactos.png" id="cactos">
+<img src = "assets/imgs/gg.png" id="caçador">
+<img src = "assets/imgs/deserto.png" id="chao">
+<meta name="viewport" content="width=device-width, user-scalable=1">
+<link rel="stylesheet" type="text/css" href="css/canv.css">
+</head>
+<body>
+	<!--Criando div do menu-->
+	<canvas id="canvas" width="1300" height="620"></canvas>
+	<div id="menu" style="background-image: url('assets/imgs/menu.png')">
+		<div id="pt">
+			<img src="assets/imgs/botãoJG.png" onclick="startGame()" id="comecar">
+			<img src="assets/imgs/botãoEN2.png" onclick="mudarLingua()" id="mudarlingua">
+		</div>
+		<div id="en">
+			<img src="assets/imgs/botãoJGEN.png" onclick="startGame()" id="comecar">
+			<img src="assets/imgs/botãoPT2.png" onclick="mudarLingua()" id="mudarlingua">
+		</div>
+	</div>
+	<div id="inicio" style="background-image: url('assets/imgs/inicio.gif')">
+		<h1 id="ani"></h1>
+	</div>
+	<div id="perdeu">
+		<div id="pt2" style="background-image: url('finalDerrotaPT.png')">
+			<img src="assets/imgs/botãoSPT.png" onclick="startGame()" id="sim">
+			<img src="assets/imgs/botãoNPT.png" onclick="menu()" id="nao">
+		</div>
+		<div id="en2" style="background-image: url('finalDerrotaEN.png')">
+			<img src="assets/imgs/botãoSEN.png" onclick=" startGame()" id="sim">
+			<img src="assets/imgs/botãoNEN.png" onclick="menu()" id="nao">
+		</div>
+	</div>
+	<div id="ganhou">
+		<div id="en3" style="background-image: url('finalVitoriaEN.png')">
+			<img src="assets/imgs/botãoSEN.png" onclick=" startGame()" id="sim">
+			<img src="assets/imgs/botãoNEN.png" onclick="menu()" id="nao">
+		</div>
+		<div id="pt3" style="background-image: url('finalVitoriaPT.png')">
+			<img src="assets/imgs/botãoSPT.png" onclick="startGame()" id="sim">
+			<img src="assets/imgs/botãoNPT.png" onclick="menu()" id="nao">
+		</div>
+	</div>
+	<div id="animacaovitoria" style="background-image: url('anim-vitoria.gif')" >
+	</div>
+	<div id="animacaotiroerrado" style="background-image: url('anim-tiro-errado.gif')" >
+	</div>
+	<div id="animacaoderrota" style="background-image: url('anim-derrota.gif')" >
+	</div>
+	<div id="animacaotirocerto" style="background-image: url('anim-tiro-certo.gif')">
+	</div>
+	<script src="js/main.js"></script>
+	<div id="dicas">
+		<p id="mnsg"> </p>
+		<p id="mnsg2"> </p>
+		<p id="mnsg3"> </p>
+		<p id="mnsg4"> </p>
+		<p id="mnsg5"> </p>
+	</div>
+</body>
+</html>

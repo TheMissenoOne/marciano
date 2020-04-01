@@ -1,0 +1,211 @@
+
+/*Centralizando canvas*/
+canvas{
+    border:1px;
+    background-color: #000000;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+}
+/*Centralizando Menu*/
+#menu {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	width: 660px;
+	height: 660px;
+}
+
+
+/*Posicionando botão*/
+#comecar {
+	position: relative;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 330px;
+}
+/*Posicionando botão*/
+#mudarlingua {
+	position: relative;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 50px;
+}
+/*Transformando botão ao passar mouse*/
+#comecar:hover {
+	width: 483px;
+	height: 100.8px;
+	margin-left: 88.5px;
+}
+/*Transformando botão ao passar mouse*/
+#mudarlingua:hover {
+	width: 483px;
+	height: 100.8px;
+	margin-left: 88.5px;
+}
+
+#perdeu {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	width: 660px;
+	height: 660px;
+}
+
+#ganhou {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	width: 660px;
+	height: 660px;
+}
+
+#sim {
+	position: relative;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 500px;
+	float: left;
+}
+
+#nao {
+	position: relative;
+	margin-left: 0px;
+	margin-right: 100px;
+	margin-top: 500px;
+	float: right;
+}
+
+#sim:hover {
+	width: 164px;
+	margin-left: 96px;
+	height: 100.8;
+}
+
+#nao:hover {
+	width: 164px;
+	height: 100.8;
+}
+
+#inicio {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	width: 660px;
+	height: 660px;
+}
+
+#ani {
+	color: #DDDDDD;
+	text-align: center;
+}
+
+#pt2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	width: 660px;
+	height: 660px;
+}
+
+#pt3 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	width: 660px;
+	height: 660px;
+}
+
+#en2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	width: 660px;
+	height: 660px;
+}
+
+#en3 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	width: 660px;
+	height: 660px;
+}
+
+#animacaovitoria {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	width: 640px;
+	height: 640px;
+}
+
+#animacaotiroerrado {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	width: 640px;
+	height: 640px;
+}
+#animacaotirocerto {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	width: 640px;
+	height: 640px;
+}
+#animacaoderrota {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	width: 640px;
+	height: 640px;
+}
+
+#dicas {
+	margin-top: 700px;
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+	font-size: xx-large;
+	padding: 5px;
+}
