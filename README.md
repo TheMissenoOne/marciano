@@ -1,7 +1,7 @@
 # Marciano
 This is a vanilla JavaScript game project built during the first period of the ETEC Doutora Ruth Cardoso IT Technical Course. The game is called Marciano and it follows the story of a Martian who arrives in a forest and hides behind one of the 100 trees when he sees a hunter. The hunter only has 5 bullets in his shotgun. Every time he shoots and misses, the Martian would say, "I'm more to the left," "I'm more to the right." If the hunter cannot hit the Martian, he will be captured by the Martian and taken to Mars.
 
-Getting Started
+# Getting Started
 To play the game, simply open the index.html file in your browser of choice. There are no additional dependencies required.
 
 How to Play
